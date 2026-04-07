@@ -24,6 +24,17 @@ a:visited{
 .trueRainbow{
     animation: rb2 5s infinite;
 }
+.fborder{
+    border-color: black;
+    border-radius: 1%;
+    border-style:dashed;
+    padding: 5%;
+}
+.cborder{
+    border-color: red;
+    border-radius: 3%;
+    border-style: solid;
+}
 @keyframes rb {
   0% { color: red;}
   10% { color: yellow;}
