@@ -17,11 +17,10 @@ a:visited{
     align-items: center;
 }
 .rainbow{
-    animation: rb2 5s infinite;
+    animation: rb 5s infinite;
 }
 .trueRainbow{
     animation: rb2 5s infinite;
-    animation
 }
 @keyframes rb {
   0% { color: red;}
