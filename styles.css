@@ -3,12 +3,22 @@ body{
     flex-direction: column;
     color: rgb(0, 128, 0); 
     background-color: rgb(32,0,0);
+    
 }
 a:link{
     color: rgb(0, 0, 160);
 }
 a:visited{
     color: rgb(60, 0, 100);
+}
+img:hover{
+    animation: sp 5s linear infinite;
+}
+.fancy{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 400%;
 }
 .left{
     justify-content: end;
@@ -18,12 +28,7 @@ a:visited{
     justify-content: center;
     align-items: center;
 }
-.rainbow{
-    animation: rb 5s infinite;
-}
-.trueRainbow{
-    animation: rb2 5s infinite;
-}
+
 .fborder{
     border-color: black;
     border-radius: 1%;
@@ -35,25 +40,56 @@ a:visited{
     border-radius: 3%;
     border-style: solid;
 }
+.rainbow{
+    animation: rb 5s infinite;
+}
+.trueRainbow{
+    animation: rb2 5s infinite;
+}
+.spin{
+    animation: sp 5s linear infinite;
+}
+.size{
+    animation: si 5s linear infinite;
+}
 @keyframes rb {
-  0% { color: red;}
-  10% { color: yellow;}
-  20% { color: lime;}
-  30% { color: aqua;}
-  40% { color: blue;}
-  50% { color: magenta;}
-  60% { color: blue;}
-  70% { color: lime;}
-  80% { color: aqua;}
-  90% { color: yellow;}
-  100% { color: red;}
+  0% {color: red;}
+  10% {color: yellow;}
+  20% {color: lime;}
+  30% {color: aqua;}
+  40% {color: blue;}
+  50% {color: magenta;}
+  60% {color: blue;}
+  70% {color: lime;}
+  80% {color: aqua;}
+  90% {color: yellow;}
+  100% {color: red;}
 }
 @keyframes rb2 {
-  0% { color: red;}
-  16% { color: yellow;}
-  33% { color: lime;}
-  50% { color: aqua;}
-  68% { color: blue;}
-  80% { color: magenta;}
-  100% { color: red;}
+  0% {color: red;}
+  16% {color: yellow;}
+  33% {color: lime;}
+  50% {color: aqua;}
+  68% {color: blue;}
+  80% {color: magenta;}
+  100% {color: red;}
+}
+@keyframes sp {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes si {
+    0%{
+        font-size: 100%;
+    }
+    40%{
+        font-size: 150%;
+    }
+    100%{
+        font-size: 100%;
+    }
 }
