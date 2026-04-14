@@ -5,13 +5,43 @@ body{
     background-color: rgb(32,0,0);
     
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
 a:link{
     color: rgb(0, 0, 160);
 }
 a:visited{
     color: rgb(60, 0, 100);
 }
-img:hover{
+#navBar {
+    flex-direction: row;
+    width: 100;
+    text-align: center;
+}
+.sbso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+    width: 100vw;
+}
+.sbsi{
+    flex: 1;
+}
+.character{
+    text-align: center;
+    justify-content: center;
+}
+.character img{
+    height: 50px;
+}
+.imgspin:hover{
     animation: sp 5s linear infinite;
 }
 .fancy{
@@ -28,7 +58,6 @@ img:hover{
     justify-content: center;
     align-items: center;
 }
-
 .fborder{
     border-color: black;
     border-radius: 1%;
