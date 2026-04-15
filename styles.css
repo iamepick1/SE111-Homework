@@ -39,7 +39,8 @@ a:visited{
     justify-content: center;
 }
 .character img{
-    height: 50px;
+    max-height: 50px;
+    animation: gi 5s ease-out forwards;
 }
 .imgspin:hover{
     animation: sp 5s linear infinite;
@@ -78,8 +79,8 @@ a:visited{
 .spin{
     animation: sp 5s linear infinite;
 }
-.size{
-    animation: si 5s linear infinite;
+.growIn{
+    animation: gi 5s ease-out forwards;
 }
 @keyframes rb {
   0% {color: red;}
@@ -111,14 +112,11 @@ a:visited{
         transform: rotate(360deg);
     }
 }
-@keyframes si {
+@keyframes gi {
     0%{
-        font-size: 100%;
-    }
-    40%{
-        font-size: 150%;
+        height: 0px;
     }
     100%{
-        font-size: 100%;
+        height: 50px;
     }
 }
