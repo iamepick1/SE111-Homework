@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="iamepick1">
+    <meta name="description" content="Default HTML Page for SE 111">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Week 5 | Tables and Forms</title>
+</head>
+<body>
+    <h1>Birthday Party Registration Form</h1>
+    <form action="confirm.html" method="get">
+        <table>
+            <thead>
+                <tr>
+                    <td>Labels</td>
+                    <td>Form Fields</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="g-first"></label>Parent/Guardian Name</td>  
+                    <td><input type="text" required maxlength="20" name="gfirst" id="g-first" placeholder="First Name"><input type="text" required maxlength="20" name="glast" id="g-last" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="c-first"></label>Child's First Name</td>  
+                    <td><input type="text" required maxlength="20" name="cfirst" id="c-first" placeholder="Child's FirstName"></td>
+                </tr>
+                <tr>
+                    <td><label for="age"></label>Child's Age</td>  
+                    <td><input type="number" required maxlength="20" name="age" id="age" value="3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
