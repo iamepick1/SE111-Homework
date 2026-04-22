@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    color: rgb(0, 128, 0); 
+    color: rgb(0,128,0); 
     background-color: rgb(32,0,0);
     
 }
@@ -19,16 +19,36 @@ iframe{
     border: 0;
 }
 hr {
-    border: 1px solid rgb(0, 200, 0);
+    border: 1px solid rgb(0,160,0);
 }
 li{
     margin-bottom: 1.5em;
 }
+table{
+    border: 1px;
+    background-color: rgb(0,128,0);
+    border-style: solid;
+}
+td{
+    border: 1px;
+    background-color: rgb(32,0,0);
+    border-color: rgb(0,32,0);
+    border-style: solid;
+}
+input{
+    color: rgb(0,128,0); 
+    background-color: rgb(64,0,0);
+    accent-color: rgb(128,0,0);
+}
+input::file-selector-button {
+    background-color: rgb(32,0,0);
+    color: rgb(0,128,0);
+}
 a:link{
-    color: rgb(0, 0, 160);
+    color: rgb(0,0,160);
 }
 a:visited{
-    color: rgb(60, 0, 100);
+    color: rgb(96,0,128);
 }
 #navBar {
     flex-direction: row;
@@ -86,6 +106,7 @@ a:visited{
 .center{
     justify-content: center;
     align-items: center;
+    justify-items: center;
 }
 .fborder{
     border-color: black;
