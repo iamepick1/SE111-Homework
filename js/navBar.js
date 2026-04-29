@@ -7,5 +7,3 @@ fetch('../navBar.html')
                 document.getElementById('navBar').innerHTML = data;
             })
             .catch(err => console.error(err));
-var conGreet = "Hello what are you looking at!"
-console.log(conGreet)
