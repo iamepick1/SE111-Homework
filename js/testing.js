@@ -1,17 +1,18 @@
-function sDiv(b){
-    document.getElementById('theDiv').innerHTML = b;
-}
+
 function go(){
-        sDiv(data);
-        data += c + "\n";
+        theDiv.innerHTML += c;
 }
 function alart(a){
     alert(a)
 }
+function inp(){
+    var input = document.getElementById('input');
+    console.log(input.value)
+}
 
-var data = "";
+var theDiv = document.getElementById('theDiv')
 var c = "IM IN YOUR WALLS ";
 var a = "I'M IN YOUR WALLS"
-const alarting = setInterval(alart(a), 10000);
+const eeee = setInterval(inp, 100);
+// const alarting = setInterval(alart(a), 10000);
 const textWall = setInterval(go, 10);
-//yo mama so ugly when she looked into the mirror her reflection said "I quit."
