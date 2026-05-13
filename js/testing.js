@@ -10,6 +10,13 @@ function inp(){
     console.log(input.value)
 }
 
+
+var user ={
+    fname:"",
+    lname:"",
+    ip:"i cant get this"
+}
+
 var theDiv = document.getElementById('theDiv')
 var c = "IM IN YOUR WALLS ";
 var b = "I'M IN YOUR WALLS";
